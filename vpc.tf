@@ -19,6 +19,7 @@ module "vpc" {
     private_subnets = var.private_subnet_cidr_blocks
     public_subnets = var.public_subnet_cidr_blocks
 
+
     # Should be true if you want to provision NAT Gateways for each of your private networks
     enable_nat_gateway = true
 
